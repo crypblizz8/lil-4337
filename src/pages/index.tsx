@@ -30,18 +30,19 @@ export default function Home() {
               Create
             </button>
           </div>
-          <div className="w-1/4 h-32 border mr-4">
-            <h1 className="text-2xl font-bold underline">
+
+          <div className="w-1/4 min-h-32 border mr-4 rounded-xl p-4">
+            <h1 className="text-2xl font-bold">
               Social Login with Web3Auth
             </h1>
           </div>
-          <div className="w-1/4 h-32 border mr-4">
-            <h1 className="text-2xl font-bold underline">
+          <div className="w-1/4 min-h-32 border mr-4 rounded-xl p-4">
+            <h1 className="text-2xl font-bold">
               MPC Login with Web3Auth
             </h1>
           </div>
-          <div className="w-1/4 h-32 border">
-            <h1 className="text-2xl font-bold underline">
+          <div className="w-1/4 min-h-32 border mr-4 rounded-xl p-4">
+            <h1 className="text-2xl font-bold">
               OnRamp with Stripe API
             </h1>
           </div>
