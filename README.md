@@ -5,10 +5,15 @@
 Lil Playground for AA / ERC4337
 
 ## ToDo
+- [ ] Read official 4337 Contract - Link?
+- [x] Set up boilerpalte
+- [ ] Gnosis
+- [ ] Biconomy
+- [ ] Web3Auth
+- [ ] ZeroDev
+- [ ] Paymaster
 
-- Read official 4337 Contract - Link?
-
-SDKs to build on top of
+SDKs to explore
 
 - [StackUp](https://www.stackup.sh/)
 - [ZeroDev](https://zerodev.app/)
@@ -18,29 +23,19 @@ SDKs to build on top of
 
 Wallets to Play with
 
-- [PatchWallet]()
+- PatchWallet
 - [Avocado](https://avocado.instadapp.io/)
 
 Code Examples
 
 - [Trampoline](https://github.com/eth-infinitism/trampoline)
 
-AA Hackathons
 
-- [Safe AA Hackathon](https://dorahacks.io/hackathon/safe)
-
-Ideas
-
-- React Native AA
-- DCA Safe + Gelato Module
-- Metamask Snap + AA
-
-PragmaBlocks
-
-## Idea 1: PragmaBlocks: Account Abstraction web development playground.
+## Idea 1: lil4337: Account Abstraction web development playground.
 
 Accounts
 
+- Create a MultiSig with Safe
 - Social account with Web3Auth
 - (MPC account with Web3Auth)
 - Gasless Wallet by Gelato
@@ -50,6 +45,7 @@ Payments
 - Onramp with USDC via Stripe
 - Paymaster for X Account.
 - Relay pay with any ERC20
+
 
 ## Idea 2: Passport: AA Mobile Wallet 
 
