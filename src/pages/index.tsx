@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Safe from "@/components/Safe";
+import Biconomy from "@/components/Biconomy";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,21 +23,14 @@ export default function Home() {
         </div>
 
         <div className="flex">
-          <div className="w-1/4 min-h-32 border mr-4 rounded-xl p-4">
-            <h1 className="text-2xl font-bold">Create Safe MultiSig</h1>
-            <p>Address 1:</p>
-            <p>Address 2:</p>
-            <p>Address 3:</p>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2">
-              Create
-            </button>
-          </div>
+          <Safe/>
+          <Biconomy/>
 
-          <div className="w-1/4 min-h-32 border mr-4 rounded-xl p-4">
+          {/* <div className="w-1/4 min-h-32 border mr-4 rounded-xl p-4">
             <h1 className="text-2xl font-bold">
               Social Login with Web3Auth
             </h1>
-          </div>
+          </div> */}
           <div className="w-1/4 min-h-32 border mr-4 rounded-xl p-4">
             <h1 className="text-2xl font-bold">
               MPC Login with Web3Auth
